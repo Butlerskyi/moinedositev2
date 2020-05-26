@@ -1,0 +1,57 @@
+@media screen and (max-width:1400px){
+    img{
+        width: 50vh !important  ;
+	    height: 30vh !important ;
+    }
+}
+@media screen and (max-width:1000px){
+    img{
+        width: 40vh !important  ;
+	    height: 30vh !important ;
+    }
+    body{
+        background-color: pink !important; 
+    }
+    .main{
+        background-color: pink !important;
+    }
+    
+}
+@media screen and (max-width:780px){
+    .anime__frag{
+        display: block !important;
+        margin: 50px 0px 20px 0px;
+    }
+    .art__frag{
+        display: block !important;
+        margin: 50px 0px 20px 0px;
+}
+    .film__frag{
+        display: block !important;
+        margin: 50px 0px 20px 0px;
+}
+    .knopki{
+        display: block !important;
+        text-align: center;
+    }
+}
+@media screen and (min-width:0px){
+    .anime__frag{
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 150px 0px 150px;
+        text-align: center;
+    }
+    .art__frag{
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 150px 0px 150px;
+        text-align: center;
+    }
+    .film__frag{
+    	display: flex;
+    	justify-content: space-around;
+    	margin: 50px 150px 0px 150px;
+    	text-align: center;
+    }
+}
